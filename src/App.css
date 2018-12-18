@@ -30,3 +30,8 @@
     transform: rotate(360deg);
   }
 }
+.content {
+  height: 100vh;
+  background-color: #3d377f;
+  color: #fff;
+}
