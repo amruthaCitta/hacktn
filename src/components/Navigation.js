@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import '../css/navigation.css'; 
 
 export default class Navigation extends Component {
   render() {
     return (
-      <div>
+      <div className="navigation">
         
       </div>
     )

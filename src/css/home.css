@@ -1,0 +1,13 @@
+.all-room-btn{
+    text-align: right;
+}
+.home-structure{
+    padding-left: 160px;
+    padding-right: 50px;
+}
+.bed-room{
+    background-color: #07f9ad85;   
+    border: 3px solid #00faa7;
+    height: 150px;
+    padding-top: 60px;
+}
