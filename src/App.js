@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/Navigation';
+import Home from './components/Home';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
       <div className="content">
-        <div className="row">
-          <div className="col-lg-9">dfgdgfghfhfghfg</div>
-          <div className="col-lg-3">hfgfhfghghjhgjhgjg</div>
-        </div>
+      <Navigation/>
+      <Home/>        
         </div>
       </div>
     );
