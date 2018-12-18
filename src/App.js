@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
-import Bedroom from './components/Bedroom'
 class App extends Component {
   render() {
     return (
@@ -11,7 +10,7 @@ class App extends Component {
       <div className="content">
       <Navigation/>
       <Home/>
-           <Bedroom/>
+          
         </div>
       </div>
     );
