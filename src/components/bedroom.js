@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
+import '../css/bedroom.css'
 export default class Bedroom extends Component {
     constructor(props){
         super(props)
@@ -24,8 +25,12 @@ export default class Bedroom extends Component {
        <div>                
        <div className="control-panel ">
        <div className="">
-        <Button onClick={this.handleChange} variant="contained" color="primary" className="primary ">Light</Button>
-        <Button onClick={this.handleChange2} variant="contained" color="primary" className="primary ">Fan</Button>
+       <button className="switch-btn" onClick={this.handleChange} variant="contained">Light</button>
+        {/* <Button onClick={this.handleChange} variant="contained" color="primary" className="switch-btn">Light</Button> */}
+       </div>
+       <div className="">
+       <button onClick={this.handleChange2} variant="contained" className="switch-btn">Fan</button>
+        {/* <Button onClick={this.handleChange2} variant="contained" color="primary" className="switch-btn">Fan</Button> */}
        </div>
        </div>
              {auth && (
