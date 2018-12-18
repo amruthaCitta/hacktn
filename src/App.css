@@ -35,3 +35,20 @@
   background-color: #3d377f;
   color: #fff;
 }
+.side-component{
+  background-color: #103877;
+  width:600px;
+  height: 100vh;
+}
+.primary{
+  display: flex;
+  padding: 50px;
+}
+.MuiButton-containedPrimary-13 {
+  color: #fff;
+  padding: 30px 50px;
+  margin: 0px 200px 100px;
+  display: block;
+  /* float: right; */
+  background-color: #3f51b5;
+}
