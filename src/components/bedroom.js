@@ -21,10 +21,9 @@ export default class Bedroom extends Component {
           auth2,anchorEl
       } = this.state;
     return (
- <div className="">
-                
+       <div>                
        <div className="control-panel ">
-       <div className="side-component">
+       <div className="">
         <Button onClick={this.handleChange} variant="contained" color="primary" className="primary ">Light</Button>
         <Button onClick={this.handleChange2} variant="contained" color="primary" className="primary ">Fan</Button>
        </div>

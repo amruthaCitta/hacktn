@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../css/home.css'; 
 import Button from './modal/Button';
 import '../css/common.css';
-import Bedroom from './Bedroom'
+import Bedroom from './Bedroom';
 
 export default class Home extends Component {
   render() {
@@ -14,7 +14,7 @@ export default class Home extends Component {
               <Button />
             </div>
             <div className="home-structure row">
-              <div className="bed-room col-lg-4"> <a href = "JavaScript:Void(0);" Style="text-decoration:none;color:'yellow'"> Bedroom</a></div>
+              <div className="bed-room col-lg-4"> <a href = "JavaScript:Void(0);" style={{textDecoration:'none',color:'yellow'}}> Bedroom</a></div>
               <div className="col-lg-4"></div>
               <div className="living-room col-lg-4">Living room</div>
             </div>
@@ -23,7 +23,7 @@ export default class Home extends Component {
             </div>
           </div>
           <div className="col-lg-3">
-             <Bedroom/>
+          <Bedroom/>
           </div>
         </div>
       </div>
